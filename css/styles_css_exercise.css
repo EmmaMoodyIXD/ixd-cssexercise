@@ -1,0 +1,126 @@
+/*------ This manipulates everything in the body. -----*/
+body {
+  max-width: 700px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+/*---- This manipulates headings one, two three and quoted text, adding a blue colour. ----*/
+h1, h2, h3, blockquote, .dropcap {
+  color: rgb(0, 122, 255)
+}
+
+/*---- This manipulates headings one, two and three font weight and their margin. ----*/
+h1, h2, h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/*---- This manipulates paragraph text line height. ----*/
+p {
+  line-height: 1.5em;
+}
+
+/*---- This manipulates heading one's font size. ----*/
+h1 {
+  font-size: 5em;
+}
+
+/*---- This manipulates heading two's typeface. ----*/
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  font-size: 2em;
+  padding-bottom: 30px;
+  margin: -.5em 0 0 .5em
+}
+
+/*---- This manipulates heading three's font size. ----*/
+h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+/*---- This manipulates the quoted text's font weight, style and size. ----*/
+blockquote {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.5em;
+  font-style: italic;
+  padding: 1.5em 0 0 0;
+}
+
+/*---- This manipulates the quoted text's text indentation. ----*/
+blockquote {
+  hanging-punctuation: first;
+  text-indent: -0.5em;
+  /* Change according to your font */
+}
+
+/*---- This manipulates the quoted text's cite. ----*/
+blockquote cite {
+  color: #999;
+  font-size: 0.667em;
+}
+
+/*---- This manipulates the class - "intro" ----*/
+.intro {
+  font-size: 1.25em;
+}
+
+/*---- This manipulates the class - "dropcap" ----*/
+.dropcap {
+  float: left;
+  font-size: 5em;
+  line-height: 0.5em;
+  margin-right: 0px;
+}
+
+/*---- This manipulates the stying for version one - section ----*/
+.version1 {
+  padding-top: 50px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/*---- This manipulates the class - "version1" and "intro" ----*/
+.version1 .intro {
+  padding-bottom: 1em;
+}
+
+/*---- This manipulates the class - "version1"s' quoted text. ----*/
+.version1 blockquote {
+  line-height: 1.4
+}
+
+/*---- This manipulates the class - "version1"'s' heading two. ----*/
+.version1 h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+/*---- This manipulates the stying for version two - section ----*/
+
+/*---- This manipulates the class - "version2" ----*/
+.version2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*---- This manipulates the class - "introcaps" ----*/
+.introcaps {
+  text-transform: uppercase;
+}
+
+/*---- This manipulates the class - "version2"'s' cite ----*/
+.version2 cite {
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+/*---- This manipulates the class - "version2"'s' paragraph text ----*/
+.version2 p+p {
+  margin-bottom: -1em;
+}
+
+/*---- This also manipulates the class - "version2"'s' paragraph text ----*/
+.version2 p+p+p {
+  text-indent: 1.5em;
+}
